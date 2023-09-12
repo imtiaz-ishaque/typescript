@@ -63,3 +63,6 @@ nameAgeMap.Jack = 25; //no error
 nameAgeMap.Mark = 100; //no error
 //nameAgeMap.Mark = "Fifty"; //Error: Type 'string' is not assignable to type 'number'.
 console.log(nameAgeMap);
+/* 
+Index signatures like this one can also be expressed with utility types like Record<string, number>.
+*/
