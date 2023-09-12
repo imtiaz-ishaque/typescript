@@ -19,3 +19,16 @@ console.log(firstName);
 //ImplicitType
 let lastName = "Ahmed";
 console.log(lastName);
+
+
+/* 
+Error In Type Assignment
+TypeScript will throw an error if data types do not match.
+
+
+firstName = 33;
+
+lastName = 33;
+
+*/
+
