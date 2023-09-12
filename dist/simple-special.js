@@ -17,4 +17,6 @@ console.log("TYPE UNKNOWN:", w);
 if (typeof w === 'object' && w !== null) {
     w.myFunction();
 }
+let y = undefined;
+let z = null;
 //# sourceMappingURL=simple-special.js.map
